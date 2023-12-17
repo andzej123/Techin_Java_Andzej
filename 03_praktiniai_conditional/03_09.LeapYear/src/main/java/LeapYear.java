@@ -20,7 +20,13 @@ public class LeapYear {
 //            System.out.println("This year is not a leap year.");
 //        }
 
-        if ((yearInput % 4 == 0 && yearInput % 100 != 0) || (yearInput % 4 == 0 && yearInput % 100 == 0 && yearInput % 400 == 0)) {
+//        if ((yearInput % 4 == 0 && yearInput % 100 != 0) || (yearInput % 4 == 0 && yearInput % 100 == 0 && yearInput % 400 == 0)) {
+//            System.out.println("This year is a leap year.");
+//        } else {
+//            System.out.println("This year is not a leap year.");
+//        }
+
+        if ((yearInput % 4 == 0 && yearInput % 100 != 0) || yearInput % 400 == 0) {
             System.out.println("This year is a leap year.");
         } else {
             System.out.println("This year is not a leap year.");
