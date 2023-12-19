@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_01.AdaLovelace/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_01.AdaLovelace/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_02.OnceUponATime/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_02.OnceUponATime/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_03.Message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_03.Message/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_04.Greeting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_04.Greeting/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_05.Story/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_praktiniai/01_05.Story/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_01.VariousVariables/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_01.VariousVariables/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_02.IntegerInput/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_02.IntegerInput/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_03.DoubleInput/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_03.DoubleInput/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_04.DifferentTypesOfInput/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_04.DifferentTypesOfInput/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_05.SecondsInADay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_05.SecondsInADay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_06.SumOfThreeNumbers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_06.SumOfThreeNumbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_07.MultiplicationFormula/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_07.MultiplicationFormula/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_08.AverageOfThreeNumbers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_08.AverageOfThreeNumbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_09.SimpleCalculator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_1 praktiniai_variables/02_09.SimpleCalculator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_01.SpeedingTicket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_01.SpeedingTicket/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_02.Positivity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_02.Positivity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_03.LargerThanOrEqualTo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_03.LargerThanOrEqualTo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_04.GradesAndPoints/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_04.GradesAndPoints/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_05.OddOrEven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_05.OddOrEven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_06.Password/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_06.Password/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_07.Same/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_07.Same/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_08.CheckingTheAge/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_08.CheckingTheAge/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_09.LeapYear/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_09.LeapYear/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_10.GiftTax/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_praktiniai_conditional/03_10.GiftTax/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_11.Counting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_11.Counting/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_12.CountingToHundred/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_12.CountingToHundred/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_13.FromWhereToWhere/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_13.FromWhereToWhere/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_14.SumOfASequence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_14.SumOfASequence/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_15.SumOfASequenceTheSequel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_15.SumOfASequenceTheSequel/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_16.Factorial/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_for/04_16.Factorial/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_01.CarryOn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_01.CarryOn/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_02.AreWeThereYet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_02.AreWeThereYet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_03.OnlyPositives/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_03.OnlyPositives/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_04.NumberOfNumbers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_04.NumberOfNumbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_05.NumberOfNegativeNumbers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_05.NumberOfNegativeNumbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_06.SumOfNumbers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_06.SumOfNumbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_07.NumberAndSumOfNumbers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_07.NumberAndSumOfNumbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_08.AverageOfNumbers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_08.AverageOfNumbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_09.AverageOfPositiveNumbers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_09.AverageOfPositiveNumbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_10.RepeatingBreakingAndRemembering/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_praktiniai_loops_while/04_10.RepeatingBreakingAndRemembering/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_01.InAHoleInTheGround/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_01.InAHoleInTheGround/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_02.Reprint/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_02.Reprint/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_03.FromOneToParameter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_03.FromOneToParameter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_04.FromParameterToOne/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_04.FromParameterToOne/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_05.Division/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_05.Division/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_06.DivisibleByThree/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_06.DivisibleByThree/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_07.NumberUno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_07.NumberUno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_08.Word/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_08.Word/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_09.Summation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_09.Summation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_10.Smallest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_10.Smallest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_11.Greatest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_11.Greatest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_12.Averaging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_12.Averaging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_13.StarSign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_13.StarSign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_14.AdvancedAstrology/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_praktiniai_methods/05_14.AdvancedAstrology/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

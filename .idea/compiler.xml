@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01_04.Greeting" />
+        <module name="03_08.CheckingTheAge" />
+        <module name="01_02.OnceUponATime" />
+        <module name="03_01.SpeedingTicket" />
+        <module name="04_11.Counting" />
+        <module name="02_3_praktinis" />
+        <module name="03_03.LargerThanOrEqualTo" />
+        <module name="01_03.Message" />
+        <module name="02_05.SecondsInADay" />
+        <module name="02_08.AverageOfThreeNumbers" />
+        <module name="05_02.Reprint" />
+        <module name="05_01.InAHoleInTheGround" />
+        <module name="04_15.SumOfASequenceTheSequel" />
+        <module name="03_05.OddOrEven" />
+        <module name="05_06.DivisibleByThree" />
+        <module name="04_06.SumOfNumbers" />
+        <module name="04_04.NumberOfNumbers" />
+        <module name="05_09.Summation" />
+        <module name="04_14.SumOfASequence" />
+        <module name="04_16.RepeatingBreakingAndRemembering" />
+        <module name="03_10.GiftTax" />
+        <module name="05_14.AdvancedAstrology" />
+        <module name="04_13.FromWhereToWhere" />
+        <module name="02_06.SumOfThreeNumbers" />
+        <module name="05_03.FromOneToParameter" />
+        <module name="03_04.gradesAndPoints" />
+        <module name="05_07.NumberUno" />
+        <module name="04_16.Factorial" />
+        <module name="03_09.LeapYear" />
+        <module name="05_05.Division" />
+        <module name="03_06.Password" />
+        <module name="03_02.Positivity" />
+        <module name="02_07.MultiplicationFormula" />
+        <module name="04_05.NumberOfNegativeNumbers" />
+        <module name="01_05.Story" />
+        <module name="02_04.DifferentTypesOfInput" />
+        <module name="04_08.AverageOfNumbers" />
+        <module name="05_10.Smallest" />
+        <module name="05_04.FromParameterToOne" />
+        <module name="04_09.AverageOfPositiveNumbers" />
+        <module name="02_09.SimpleCalculator" />
+        <module name="02_01.VariousVariables" />
+        <module name="04_02.AreWeThereYet" />
+        <module name="02_03.DoubleInput" />
+        <module name="04_12.CountingToHundred" />
+        <module name="05_11.Greatest" />
+        <module name="04_03.OnlyPositives" />
+        <module name="04_01.CarryOn" />
+        <module name="02_02.IntegerInput" />
+        <module name="01_01.AdaLovelace" />
+        <module name="05_12.Averaging" />
+        <module name="05_08.Word" />
+        <module name="03_07.Same" />
+        <module name="04_07.NumberAndSumOfNumbers" />
+        <module name="05_13.StarSign" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
