@@ -1,4 +1,5 @@
 
+import javax.naming.PartialResultException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -19,6 +20,13 @@ public class IndexOf {
 
         System.out.println("");
 
-        // implement here finding the indices of a number
+        System.out.print("Search for? ");
+        int userInput = Integer.parseInt(scanner.nextLine());
+
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).equals(userInput)) {
+                System.out.println(userInput + " is at index " + i);
+            }
+        }
     }
 }

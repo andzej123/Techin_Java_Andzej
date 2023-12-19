@@ -16,6 +16,12 @@ public class OnlyTheseNumbers {
 
             numbers.add(number);
         }
+        int firstInput = Integer.parseInt(scanner.nextLine());
+        int secondInput = Integer.parseInt(scanner.nextLine());
+
+        for (int i = firstInput; i<= secondInput; i++ ) {
+            System.out.println(numbers.get(i));
+        }
 
     }
 }
