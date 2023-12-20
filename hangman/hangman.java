@@ -14,9 +14,9 @@ public class hangman {
         int firstPlayer = startNewGame(1);
         int secondPlayer = startNewGame(2);
 
-        if (firstPlayer > secondPlayer) {
+        if (firstPlayer < secondPlayer) {
             System.out.println("The winner is " + playerOne);
-        } else if (firstPlayer < secondPlayer) {
+        } else if (firstPlayer > secondPlayer) {
             System.out.println("The winner is " + playerTwo);
         } else {
             System.out.println("Omg it's a tie");
