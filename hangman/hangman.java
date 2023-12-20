@@ -5,23 +5,32 @@ import java.util.Scanner;
 
 public class hangman {
     public static void main(String[] args) {
-        String word1 = pickWord();
-        StringBuilder hiddenWord1 = new StringBuilder();
-        hiddenWord1.append("*".repeat(word1.length()));
-
-        char[] word = word1.toCharArray();
-        char[] hiddenWord = hiddenWord1.toString().toCharArray();
-
 
         System.out.println("Start new game");
-        int Pete = startNewGame(hiddenWord, word, 1);
-        int Steve = startNewGame(hiddenWord, word, 2);
 
+        String playerOne = "Pete";
+        String playerTwo = "Steve";
+
+        int firstPlayer = startNewGame(1);
+        int secondPlayer = startNewGame(2);
+
+        if (firstPlayer > secondPlayer) {
+            System.out.println("The winner is " + playerOne);
+        } else if (firstPlayer < secondPlayer) {
+            System.out.println("The winner is " + playerTwo);
+        } else {
+            System.out.println("Omg it's a tie");
+        }
 
     }
 
-    public static int startNewGame(char[] hiddenWord, char[] word,int player) {
+    public static int startNewGame(int player) {
         Scanner scan = new Scanner(System.in);
+
+        char[] word = pickWord();
+        StringBuilder hiddenWord1 = new StringBuilder();
+        hiddenWord1.append("*".repeat(word.length));
+        char[] hiddenWord = hiddenWord1.toString().toCharArray();
 
         System.out.println("Player " + player + " begin");
 
@@ -29,13 +38,13 @@ public class hangman {
         System.out.println(hiddenWord);
         int turn = 1;
         while (checkForNextTurn(hiddenWord)) {
-            System.out.println("Turn " + turn +  ". Enter a letter:");
+            System.out.println("Turn " + turn + ". Enter a letter:");
             String userInput = scan.nextLine();
 
             while (checkForDuplicate(usedLetters, userInput)) {
                 System.out.println("This already exists");
                 System.out.println(hiddenWord);
-                System.out.println("Turn " + turn +  ". Enter a letter:");
+                System.out.println("Turn " + turn + ". Enter a letter:");
                 userInput = scan.nextLine();
             }
             turn++;
@@ -43,7 +52,7 @@ public class hangman {
             checkForLetter(word, hiddenWord, userInput);
             System.out.println(hiddenWord);
         }
-        System.out.printf("It took %d turns to win.", turn);
+        System.out.printf("It took %d turns to pass.\n", turn);
         return turn;
     }
 
@@ -72,9 +81,10 @@ public class hangman {
         return false;
     }
 
-    public static String pickWord() {
+    public static char[] pickWord() {
         String[] words = {"wellspring", "yachtsman", "zigzagging", "espionage", "bandwagon", "mnemonic", "transgress", "vaporize", "glowworm", "pizazz"};
         Random r = new Random();
-        return words[r.nextInt(10)];
+
+        return words[r.nextInt(10)].toCharArray();
     }
 }
