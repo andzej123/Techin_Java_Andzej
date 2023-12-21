@@ -13,28 +13,16 @@ public class ticTacToe {
     }
 
     public static void startAGame(String[] symbols) {
-        Scanner scan = new Scanner(System.in);
         int turn = 1;
         while (!checkForWin(symbols) && turn != 10) {
             for (int i = 1; i < 3; i++) {
                 System.out.println("Turn " + turn);
                 int place = -1;
                 while (true) {
-                    // Take values from player 1 and player 2 and check for number validation
-                    System.out.print("Enter a row (0, 1, 2) for player " + i + ":");
-                    int row = Integer.parseInt(scan.nextLine());
-                    while (row < 1 || row > 3) {
-                        System.out.println("Enter a valid number");
-                        System.out.print("Enter a row (0, 1, 2) for player " + i + ":");
-                        row = Integer.parseInt(scan.nextLine());
-                    }
-                    System.out.print("Enter a column (0, 1, 2) for player " + i + ":");
-                    int column = Integer.parseInt(scan.nextLine());
-                    while (column < 1 || column > 3) {
-                        System.out.println("Enter a valid number");
-                        System.out.print("Enter a row (0, 1, 2) for player " + i + ":");
-                        column = Integer.parseInt(scan.nextLine());
-                    }
+
+                    int row = takeInput(i, "row");
+                    int column = takeInput(i, "column");
+
                     // Check if that field is empty and if not ask for another input
                     place = checkPlace(row, column);
                     if (checkIfPlaceIsEmpty(symbols, place)) {
@@ -63,6 +51,18 @@ public class ticTacToe {
                 }
             }
         }
+    }
+
+    public static int takeInput(int turn, String position) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter a " + position + " (1, 2, 3) for player " + turn + ":");
+        String s = scan.nextLine();
+        while (!s.matches("\\d+") || (!s.equals("2") && !s.equals("1") && !s.equals("3"))) {
+            System.out.println("Enter a valid number");
+            System.out.print("Enter a " + position + " (1, 2, 3) for player " + turn + ":");
+            s = scan.nextLine();
+        }
+        return Integer.parseInt(s);
     }
 
     public static boolean checkIfPlaceIsEmpty(String[] arr, int number) {
