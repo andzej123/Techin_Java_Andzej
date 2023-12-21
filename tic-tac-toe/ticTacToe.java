@@ -14,24 +14,59 @@ public class ticTacToe {
 
     public static void startAGame(String[] symbols) {
         Scanner scan = new Scanner(System.in);
-        while (!checkForWin(symbols)) {
+        int turn = 1;
+        while (!checkForWin(symbols) && turn != 10) {
             for (int i = 1; i < 3; i++) {
-                System.out.print("Enter a row (0, 1, 2) for player " + i + ":");
-                int row = Integer.parseInt(scan.nextLine());
-                System.out.print("Enter a column (0, 1, 2) for player " + i + ":");
-                int column = Integer.parseInt(scan.nextLine());
-                if (i == 1) {
-                    symbols[checkPlace(row, column)] = " X ";
-                } else {
-                    symbols[checkPlace(row, column)] = " O ";
+                System.out.println("Turn " + turn);
+                int place = -1;
+                while (true) {
+                    // Take values from player 1 and player 2 and check for number validation
+                    System.out.print("Enter a row (0, 1, 2) for player " + i + ":");
+                    int row = Integer.parseInt(scan.nextLine());
+                    while (row < 1 || row > 3) {
+                        System.out.println("Enter a valid number");
+                        System.out.print("Enter a row (0, 1, 2) for player " + i + ":");
+                        row = Integer.parseInt(scan.nextLine());
+                    }
+                    System.out.print("Enter a column (0, 1, 2) for player " + i + ":");
+                    int column = Integer.parseInt(scan.nextLine());
+                    while (column < 1 || column > 3) {
+                        System.out.println("Enter a valid number");
+                        System.out.print("Enter a row (0, 1, 2) for player " + i + ":");
+                        column = Integer.parseInt(scan.nextLine());
+                    }
+                    // Check if that field is empty and if not ask for another input
+                    place = checkPlace(row, column);
+                    if (checkIfPlaceIsEmpty(symbols, place)) {
+                        break;
+                    } else {
+                        System.out.println("Place is taken");
+                    }
                 }
+
+                // Check what symbol to draw on board and in which place
+                if (i == 1) {
+                    symbols[place] = " X ";
+                } else {
+                    symbols[place] = " O ";
+                }
+
                 drawBoard(symbols);
+                turn++;
                 if (checkForWin(symbols)) {
                     System.out.println("WIN for player " + i);
                     break;
                 }
+                if (turn == 10) {
+                    System.out.println("End of turns");
+                    break;
+                }
             }
         }
+    }
+
+    public static boolean checkIfPlaceIsEmpty(String[] arr, int number) {
+        return arr[number].isBlank();
     }
 
     public static int checkPlace(int row, int column) {
