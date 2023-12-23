@@ -1,6 +1,3 @@
-import javax.naming.PartialResultException;
-import java.sql.SQLOutput;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ticTacToe {
