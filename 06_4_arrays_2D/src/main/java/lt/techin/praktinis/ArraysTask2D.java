@@ -251,11 +251,11 @@ public class ArraysTask2D {
 //        throw new UnsupportedOperationException();
         boolean result = true;
         int sum = 0;
-        int iter = arr.length * arr[0].length;
+        int totalLength = arr.length * arr[0].length;
         int arrSum = 0;
-        while (iter >= 1) {
-            arrSum += iter;
-            iter--;
+        while (totalLength >= 1) {
+            arrSum += totalLength;
+            totalLength--;
         }
         for (int i = 0; i < arr.length; i++) {
             if (arr.length != arr[i].length) {
