@@ -81,7 +81,7 @@ public class TestCircle {
 
         Time time = new Time(5,2,54);
         time.setSecond(59);
-        time.nextSecond();
+        time.nextSecond().nextSecond().nextSecond();
         time.setMinute(59);
         time.setSecond(59);
         time.nextSecond();
@@ -99,6 +99,7 @@ public class TestCircle {
         time.setSecond(0);
         time.setMinute(0);
         time.previousSecond();
+        time.nextSecond().nextSecond().nextSecond();
 
         System.out.println(time);
 

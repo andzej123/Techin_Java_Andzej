@@ -40,12 +40,12 @@ public class Employee {
     }
 
     public int raiseSalary(int percent) {
-        this.salary = salary + (salary / 100 * percent) ;
+        this.salary = salary + (salary / 100 * percent);
         return this.salary;
     }
 
     public String toString() {
-        return "Employee[id=" + id + ", name=" + firstName + " " + lastName + ", salary=" + salary +  "]";
+        return "Employee[id=" + id + ", name=" + firstName + " " + lastName + ", salary=" + salary + "]";
     }
 
 
