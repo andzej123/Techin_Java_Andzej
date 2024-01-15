@@ -21,6 +21,10 @@ public abstract class Product {
         return price;
     }
 
+    public double getPriceConvertedToLitai() {
+        return price * 3.45;
+    }
+
     @Override
     public String toString() {
         return "{ Name = " + name + ", price = " + price + " }";

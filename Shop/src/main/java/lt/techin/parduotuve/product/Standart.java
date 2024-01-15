@@ -16,6 +16,6 @@ public class Standart extends Product {
 
     @Override
     public String toString() {
-        return "Name: " + getName() + ", Net price: " + getPrice() + ", Gross price: " + getPriceWithTax();
+        return String.format("Name: %12s , Net price: %5.2f , Gross price: %5.2f", getName(), getPrice(), getPriceWithTax());
     }
 }

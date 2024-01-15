@@ -1,6 +1,6 @@
 package lt.techin.parduotuve.product;
 
-public class Medication extends Product{
+public class Medication extends Product {
 
     int VAT;
 
@@ -16,6 +16,6 @@ public class Medication extends Product{
 
     @Override
     public String toString() {
-        return "Name: " + getName() + ", Net price: " + getPrice() + ", Gross price: " + getPriceWithTax();
+        return String.format("Name: %12s , Net price: %5.2f , Gross price: %5.2f", getName(), getPrice(), getPriceWithTax());
     }
 }

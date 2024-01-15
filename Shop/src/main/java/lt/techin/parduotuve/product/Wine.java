@@ -1,29 +1,27 @@
 package lt.techin.parduotuve.product;
 
-public class Wine extends Product{
+public class Wine extends Alcohol {
 
-    private int VAT;
-    private double quantity;
 
     private double TAX;
-    public Wine(String name, double price, double quantity, boolean lowAlcoholPercentage) {
-        super(name, price);
-        this.quantity = quantity;
-        TAX = lowAlcoholPercentage ? 0.28 : 0.72;
-        VAT = 21;
+
+
+    public Wine(String name, double price, double quantity, boolean alcoholLowerThat8andAHalfPercent) {
+        super(name, price, quantity, false);
+        TAX = alcoholLowerThat8andAHalfPercent ? 0.28 : 0.72;
     }
 
     public double getTAX() {
-        return quantity * TAX;
+        return getQuantity() * TAX;
     }
 
     @Override
     public double getPriceWithTax() {
-        return getPrice() + getTAX() +  (getPrice() * (VAT / 100.0));
+        return getPrice() + getTAX() + (getPrice() * (getVAT() / 100.0));
     }
 
     @Override
     public String toString() {
-        return "Name: " + getName() + ", Net price: " + getPrice() + ", Gross price: " + getPriceWithTax();
+        return String.format("Name: %12s , Net price: %5.2f , Gross price: %5.2f", getName(), getPrice(), getPriceWithTax());
     }
 }

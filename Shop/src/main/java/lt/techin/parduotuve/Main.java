@@ -1,9 +1,6 @@
 package lt.techin.parduotuve;
 
-import lt.techin.parduotuve.product.Alcohol;
-import lt.techin.parduotuve.product.Medication;
-import lt.techin.parduotuve.product.Standart;
-import lt.techin.parduotuve.product.Wine;
+import lt.techin.parduotuve.product.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,7 +26,7 @@ public class Main {
         duncans.add(new Alcohol("Champagne", 6.5, 0.8, true));
         duncans.add(new Alcohol("Whisky", 20.2, 1, false));
 
-        duncans.printProducts();
+
 
 
 
