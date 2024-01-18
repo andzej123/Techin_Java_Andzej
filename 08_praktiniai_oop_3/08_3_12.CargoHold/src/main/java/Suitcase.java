@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Suitcase {
     private ArrayList<Item> items;
@@ -17,28 +18,31 @@ public class Suitcase {
 
     public int totalWeight() {
         int result = 0;
-        for (Item i : items) {
-            result += i.getWeight();
-        }
-        return result;
+//        for (Item i : items) {
+//            result += i.getWeight();
+//        }
+//        return result;
+        return items.stream().mapToInt(Item::getWeight).sum();
     }
 
     public void printItems() {
-        for (Item i : items) {
-            System.out.println(i);
-        }
+//        for (Item i : items) {
+//            System.out.println(i);
+//        }
+        items.forEach(System.out::println);
     }
 
     public Item heaviestItem() {
         Item item = null;
         int heaviestItemWeight = Integer.MIN_VALUE;
-        for (Item i : items) {
-            if (item == null || i.getWeight() > heaviestItemWeight) {
-                item = i;
-                heaviestItemWeight = i.getWeight();
-            }
-        }
-        return item;
+//        for (Item i : items) {
+//            if (item == null || i.getWeight() > heaviestItemWeight) {
+//                item = i;
+//                heaviestItemWeight = i.getWeight();
+//            }
+//        }
+//        return item;
+        return items.stream().max(Comparator.comparingInt(Item::getWeight)).orElse(null);
     }
 
     @Override

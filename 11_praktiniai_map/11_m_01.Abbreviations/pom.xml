@@ -2,11 +2,11 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>tkt</groupId>
-    <artifactId>08_3_12.CargoHold</artifactId>
-    <name>08_3_12.CargoHold</name>
+    <artifactId>11_m_01.Abbreviations</artifactId>
+    <name>11_m_01.Abbreviations</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -34,10 +34,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
-                <configuration>
-                    <source>10</source>
-                    <target>10</target>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>

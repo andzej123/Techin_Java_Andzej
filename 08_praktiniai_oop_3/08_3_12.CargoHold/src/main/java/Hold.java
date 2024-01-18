@@ -16,17 +16,19 @@ public class Hold {
     }
 
     public void printItems() {
-        for (Suitcase h : hold) {
-            h.printItems();
-        }
+//        for (Suitcase h : hold) {
+//            h.printItems();
+//        }
+        hold.forEach(Suitcase::printItems);
     }
 
     public int totalWeight() {
-        int result = 0;
-        for (Suitcase i : hold) {
-            result += i.totalWeight();
-        }
-        return result;
+//        int result = 0;
+//        for (Suitcase i : hold) {
+//            result += i.totalWeight();
+//        }
+//        return result;
+        return hold.stream().mapToInt(Suitcase::totalWeight).sum();
     }
 
     @Override
