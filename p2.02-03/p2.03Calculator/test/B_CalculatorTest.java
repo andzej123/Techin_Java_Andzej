@@ -462,7 +462,7 @@ public class B_CalculatorTest {
     private void lueKoodi() {
         int lukijoita = 0;
         try {
-            Scanner lukija = new Scanner(new File("C:\\Users\\Andzej\\Desktop\\p2.02-03\\p2.03Calculator\\src\\Calculator.java"));
+            Scanner lukija = new Scanner(new File("C:\\Users\\Andzej\\Desktop\\New folder\\Techin_Java_Andzej\\p2.02-03\\p2.03Calculator\\src\\Calculator.java"));
             StringBuilder sb = new StringBuilder();
 
             while (lukija.hasNextLine()) {
