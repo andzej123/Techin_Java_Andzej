@@ -7,6 +7,7 @@ import lt.techin.library.BookNotFoundException;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -100,7 +101,9 @@ public class MyBookCatalog implements BookCatalog {
         return sum.divide(new BigDecimal(booksCatalog.size()), RoundingMode.HALF_EVEN);
     }
 
-    public Map<Boolean, Map<Boolean, Long>> countBooksAvailibility() {
-        return booksCatalog.stream().collect(Collectors.partitioningBy(Book::isAvailable, Collectors.groupingBy(Book::isAvailable, Collectors.counting())));
+    public void printBooksAvailibility() {
+        System.out.println("Not Available   Available");
+        Map<Boolean, Long> result = booksCatalog.stream().collect(Collectors.partitioningBy(Book::isAvailable, Collectors.counting()));
+        result.entrySet().stream().forEach(s -> System.out.print("Books count: " + s.getValue() + "  "));
     }
 }

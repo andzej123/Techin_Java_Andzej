@@ -23,14 +23,14 @@ public class Main {
 
         Book book1 = new Book("title1", authors1, "isbn1", 1991, "publisher1", 25, new BigDecimal(20), false);
         Book book2 = new Book("title2", authors2, "isbn2", 2015, "publisher1", 26, new BigDecimal(22), false);
-        Book book3 = new Book("title3", authors1, "isbn3", 2010, "publisher2", 27, new BigDecimal(22), true);
+        Book book3 = new Book("title3", authors1, "isbn3", 2010, "publisher2", 27, new BigDecimal(22), false);
 
         MyBookCatalog my = new MyBookCatalog();
         my.addBook(book1);
         my.addBook(book2);
         my.addBook(book3);
 
-        System.out.println(my.countBooksAvailibility());
+        my.printBooksAvailibility();
 
 
     }
