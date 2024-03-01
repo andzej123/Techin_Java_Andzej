@@ -12,21 +12,11 @@ public class Animal {
         this.hasFur = hasFur;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public int getNumberOfPaws() {
-        return numberOfPaws;
-    }
-
-    public boolean isHasFur() {
-        return hasFur;
-    }
-
     public String getDescription() {
         String fur = hasFur ? "a" : "no";
         String paws = numberOfPaws == 1 ? "paw" : "paws";
         return "This animal is mostly " + color + ". It has " + numberOfPaws + " " + paws + " and " + fur + " fur.";
     }
+
+
 }
